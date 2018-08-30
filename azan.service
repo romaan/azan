@@ -1,0 +1,10 @@
+[Unit]
+Description=Azan Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/romaan/azan/run.py
+
+[Install]
+WantedBy=multi-user.target
