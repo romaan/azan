@@ -417,7 +417,7 @@ prayTimes = PrayTimes()
 if __name__ == "__main__":
     from datetime import date
 
-    print('Prayer Times for today in Waterloo/Canada\n' + ('=' * 41))
+    print('Prayer Times for today in Brisbane/Australia\n' + ('=' * 41))
     times = prayTimes.getTimes(date.today(), (-27.46, 153.02), 10)
     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
         print(i + ': ' + times[i.lower()])
